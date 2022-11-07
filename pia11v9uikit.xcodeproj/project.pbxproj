@@ -13,6 +13,8 @@
 		ABD65DE22918F41200593908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD65DE02918F41200593908 /* Main.storyboard */; };
 		ABD65DE42918F41300593908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD65DE32918F41300593908 /* Assets.xcassets */; };
 		ABD65DE72918F41300593908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD65DE52918F41300593908 /* LaunchScreen.storyboard */; };
+		ABD65DEF29190D3D00593908 /* ReadmoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD65DEE29190D3D00593908 /* ReadmoreVC.swift */; };
+		ABD65DF12919289B00593908 /* personTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD65DF02919289B00593908 /* personTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ABD65DE32918F41300593908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD65DE62918F41300593908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD65DE82918F41300593908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD65DEE29190D3D00593908 /* ReadmoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmoreVC.swift; sourceTree = "<group>"; };
+		ABD65DF02919289B00593908 /* personTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				ABD65DDA2918F41200593908 /* AppDelegate.swift */,
 				ABD65DDC2918F41200593908 /* SceneDelegate.swift */,
-				ABD65DDE2918F41200593908 /* ViewController.swift */,
 				ABD65DE02918F41200593908 /* Main.storyboard */,
+				ABD65DDE2918F41200593908 /* ViewController.swift */,
+				ABD65DF02919289B00593908 /* personTableViewCell.swift */,
+				ABD65DEE29190D3D00593908 /* ReadmoreVC.swift */,
 				ABD65DE32918F41300593908 /* Assets.xcassets */,
 				ABD65DE52918F41300593908 /* LaunchScreen.storyboard */,
 				ABD65DE82918F41300593908 /* Info.plist */,
@@ -141,6 +147,8 @@
 				ABD65DDF2918F41200593908 /* ViewController.swift in Sources */,
 				ABD65DDB2918F41200593908 /* AppDelegate.swift in Sources */,
 				ABD65DDD2918F41200593908 /* SceneDelegate.swift in Sources */,
+				ABD65DF12919289B00593908 /* personTableViewCell.swift in Sources */,
+				ABD65DEF29190D3D00593908 /* ReadmoreVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
